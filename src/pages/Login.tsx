@@ -48,7 +48,7 @@ const Login: React.FC = () => {
   };
 
   const goToRegister = () => {
-    navigation.push('/register', 'forward', 'replace');
+    navigation.push('/Register', 'forward', 'replace');
   };
 
   return (
